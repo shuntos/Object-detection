@@ -10,9 +10,9 @@ rectangle_detection2.py detect innner rectangle in rectangle.jpg
  Input Image
  ![alt text](data/rectangle.jpg "input image")
  
- Output of rectangle_detection.py
+ 
  ![alt text](data/final_output_2.jpg "Final output of rectangle_detection2.py")
- output of rectangle_detection2.py
+
  ![alt text](data/final_output.jpg "Final output of rectangle_detectio.py")
  
  
