@@ -132,11 +132,11 @@ def find_rectangle(image):
     bgr = cv.cvtColor(rectangled, cv.COLOR_RGB2BGR)
     
     return bgr
-image=cv.imread('rectangle.jpg')
+image=cv.imread('data/rectangle.jpg')
 image4=image.copy()
 print (image4.shape)
 #detect it
 result = find_rectangle(image)
 #write the new image
-cv.imwrite('yo2.jpg', result)
+cv.imwrite('data/final_output.jpg', result)
                 

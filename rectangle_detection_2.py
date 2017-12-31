@@ -114,14 +114,14 @@ def find_rectangle(image):
     mask1 = cv.inRange(image_blur_hsv, min_white, max_white)
     
     show_image(mask1)
-    cv.imwrite("data/First_mask.jpg",mask1)
+    cv.imwrite("data/First_mask_2.jpg",mask1)
 
     min_white2 = np.array([0, 0, 240])
     max_white2 = np.array([50, 10, 256])
     
     mask2 = cv.inRange(image_blur_hsv, min_white2, max_white2)
     show_image(mask2)
-    cv.imwrite("data/Second_mask.jpg",mask2)
+    cv.imwrite("data/Second_mask_2.jpg",mask2)
     mask = mask1 + mask2
     show_image(mask)
 
@@ -154,4 +154,4 @@ image=cv.imread('data/rectangle.jpg')
 image4=image.copy()
 
 result = find_rectangle(image)
-cv.imwrite('data/final_output.jpg', result)
+cv.imwrite('data/final_output_2.jpg', result)
