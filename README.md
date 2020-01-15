@@ -1,5 +1,7 @@
 # Object-detection
 Detect objects like rectangle, circle, ball specified color
+
+
 Script to choose the value of HSV Color range
 
 rectangle_detection.py detected outer rectangle in rectangle.jpg 
